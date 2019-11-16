@@ -12,6 +12,7 @@
 		46460DEA23806C6B00073D0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46460DE823806C6B00073D0E /* Main.storyboard */; };
 		46460DEC23806C6D00073D0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46460DEB23806C6D00073D0E /* Assets.xcassets */; };
 		46460DEF23806C6D00073D0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46460DED23806C6D00073D0E /* LaunchScreen.storyboard */; };
+		468506F523806E4C002966DA /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468506F423806E4C002966DA /* UploadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		46460DEB23806C6D00073D0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46460DEE23806C6D00073D0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46460DF023806C6D00073D0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		468506F423806E4C002966DA /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				46460DE423806C6B00073D0E /* AppDelegate.swift */,
 				46460DE623806C6B00073D0E /* ViewController.swift */,
+				468506F423806E4C002966DA /* UploadViewController.swift */,
 				46460DE823806C6B00073D0E /* Main.storyboard */,
 				46460DEB23806C6D00073D0E /* Assets.xcassets */,
 				46460DED23806C6D00073D0E /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46460DE723806C6B00073D0E /* ViewController.swift in Sources */,
+				468506F523806E4C002966DA /* UploadViewController.swift in Sources */,
 				46460DE523806C6B00073D0E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
