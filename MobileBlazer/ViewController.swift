@@ -22,6 +22,8 @@ class ViewController: UIViewController {
     func displayImages()
     {
         print("display images")
+        
+        print("display upload images")
     }
 
 
